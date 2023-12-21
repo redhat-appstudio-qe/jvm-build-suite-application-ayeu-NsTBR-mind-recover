@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-eslddz
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/jvm-build-zqpx-tenant/jvm-build-suite-application-ayeu/jvm-build-suite-component-eslddz@sha256:14ac87c0a795daa40683eb06b77480e09f9bb9266d8179dbb701dd2afb393e7f
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
