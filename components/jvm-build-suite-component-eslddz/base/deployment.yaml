@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-eslddz
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/redhat-appstudio-qe/jvm-build-zqpx-tenant/jvm-build-suite-application-ayeu/jvm-build-suite-component-eslddz@sha256:14ac87c0a795daa40683eb06b77480e09f9bb9266d8179dbb701dd2afb393e7f
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
